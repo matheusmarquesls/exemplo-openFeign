@@ -10,14 +10,4 @@ public interface LogradouroIntegration {
     // VIACEP: GET https://viacep.com.br/ws/{cep}/json/
 @GetMapping("/{cep}/json/")
     LogradouroResponseDto buscarPorCep(@PathVariable String cep);
-
-
-
-
-
-
-
-
-
-
 }

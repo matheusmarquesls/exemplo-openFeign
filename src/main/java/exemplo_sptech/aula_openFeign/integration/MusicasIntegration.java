@@ -23,3 +23,4 @@ public interface MusicasIntegration {
         @PostMapping
         MusicaResponseDto cadastrar(@RequestBody MusicaRequestDto dto);
 }
+

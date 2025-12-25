@@ -41,7 +41,6 @@ public class MusicaService {
                     throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR);
             }
         }
-
     }
     public MusicaResponseDto cadastrar (@RequestBody MusicaRequestDto dto)
     {

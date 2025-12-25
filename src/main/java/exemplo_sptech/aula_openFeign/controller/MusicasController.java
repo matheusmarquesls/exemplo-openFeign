@@ -39,7 +39,4 @@ public class MusicasController {
         MusicaResponseDto responseDto = service.cadastrar(dto);
         return ResponseEntity.created(null).body(responseDto);
     }
-
-
-
 }

@@ -10,7 +10,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class AulaOpenFeignApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(AulaOpenFeignApplication.class, args);
 	}
 

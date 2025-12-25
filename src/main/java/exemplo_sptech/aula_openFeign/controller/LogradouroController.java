@@ -18,7 +18,6 @@ public class LogradouroController {
     public ResponseEntity<LogradouroResponseDto>  BuscarPorCep(@PathVariable String cep){
 
          LogradouroResponseDto logradouroResponseDto = service.buscarPorCep(cep);
-
          return ResponseEntity.ok(logradouroResponseDto);
      }
 

@@ -12,5 +12,4 @@ public record LogradouroResponseDto(
         String estado,
         String regiao
 ) {
-
 }

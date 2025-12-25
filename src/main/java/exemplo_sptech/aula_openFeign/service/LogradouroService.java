@@ -13,7 +13,6 @@ import org.springframework.web.server.ResponseStatusException;
 public class LogradouroService {
 
     private  final LogradouroIntegration integration;
-
     public LogradouroResponseDto buscarPorCep(String cep){
 
         try {

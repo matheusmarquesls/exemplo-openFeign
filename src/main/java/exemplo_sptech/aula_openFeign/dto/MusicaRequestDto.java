@@ -5,5 +5,4 @@ public record MusicaRequestDto(
         String genero,
         String artista
         ) {
-
 }
